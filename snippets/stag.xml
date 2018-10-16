@@ -20,7 +20,6 @@
 <remove-project name="platform/bootable/recovery" />
 <remove-project name="platform/build" />
 <remove-project name="platform/build/soong" />
-<remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/hardware/ril" />
 <remove-project name="platform/hardware/qcom/display" />
 <remove-project name="platform/hardware/qcom/media" />
