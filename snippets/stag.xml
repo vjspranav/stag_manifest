@@ -33,7 +33,7 @@
 <remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/external/perfetto" />
 <remove-project name="platform/external/tinycompress" />
-<remove-project name="platform/prebuilt/build-tools" />
+<remove-project name="platform/prebuilts/build-tools" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/packages/providers/MediaProvider" />
 
