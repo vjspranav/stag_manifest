@@ -5,6 +5,9 @@
   <remote  name="stag"
            revision="p9"
            fetch="https://github.com/StagOS/"  />
+  <remote  name="gitlab"
+           revision="p9"
+           fetch="https://gitlab.com/yureka2/123/" />
 
 <!-- Remove the following projects as we are getting them from lineage -->
 
@@ -30,7 +33,6 @@
 <remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/external/perfetto" />
 <remove-project name="platform/external/tinycompress" />
-<remove-project name="platform/external/linux" />
 <remove-project name="platform/prebuilt/build-tools" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/packages/providers/MediaProvider" />
@@ -38,7 +40,7 @@
 
 <!-- Now to track with elegance -->
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
-<project path="frameworks/base" name="android_frameworks_base" remote="stag" />
+<project path="frameworks/base" name="android_frameworks_base" remote="gitlab" />
 <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="stag" />
 <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
 <project path="frameworksopt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stag" />
