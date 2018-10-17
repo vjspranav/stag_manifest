@@ -7,7 +7,7 @@
            fetch="https://github.com/StagOS/"  />
   <remote  name="gitlab"
            revision="p9"
-           fetch="https://gitlab.com/yureka2/123/" />
+           fetch="https://gitlab.com/yureka2/" />
 
 <!-- Remove the following projects as we are getting them from lineage -->
 
@@ -40,7 +40,7 @@
 
 <!-- Now to track with elegance -->
 <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
-<project path="frameworks/base" name="android_frameworks_base" remote="gitlab" />
+<project path="frameworks/base" name="123" remote="gitlab" />
 <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="stag" />
 <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
 <project path="frameworksopt/net/wifi" name="android_frameworks_opt_net_wifi" remote="stag" />
