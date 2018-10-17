@@ -34,7 +34,7 @@
 <project path="external/connectivity" name="android_external_connectivity" remote="los" />
 <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
 <project path="hardware/lineage/lineagehw" name="android_hardware_lineage_lineagehw" remote="los" />
-<!-- p  roject path="system/qcom" name="android_system_qcom" remote="los" />
+<!-- p  roject path="system/qcom" name="android_system_qcom" remote="los" /> -->
 
 <!-- HALs 
 <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8084" />
