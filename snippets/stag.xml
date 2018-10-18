@@ -86,5 +86,6 @@
 <project path="system/core" name="android_system_core" remote="stag" />
 <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="stag" />
 <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+<project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="stag" />
 
 </manifest>
