@@ -36,8 +36,8 @@
 <remove-project name="platform/system/core" />
 <remove-project name="platform/system/bt" />
 <remove-project name="platform/packages/providers/MediaProvider" />
-<remove-project name="/platform/packages/apps/Dialer" />
-<remove-project name="/platform/packages/apps/Contacts" />
+<remove-project name="platform/packages/apps/Dialer" />
+<remove-project name="platform/packages/apps/Contacts" />
 <remove-project name="platform/external/selinux" />
 
 <!-- Build first -->
