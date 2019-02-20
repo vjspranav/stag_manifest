@@ -8,9 +8,6 @@
            review="review.lineageos.org" />
 
 <!-- Remove the following projects as we are getting them from lineage -->
-<remove-project name="platform/frameworks/opt/telephony" /> 
-
-
 
 
 
