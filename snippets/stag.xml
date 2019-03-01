@@ -45,6 +45,7 @@
 <remove-project name="platform/packages/apps/Messaging" />
 <remove-project name="platform/packages/services/Telephony" /> 
 <remove-project name="platform/packages/services/Telecomm" /> 
+<remove-project name="platform/prebuilts/clang/host/linux-x86" />
 <remove-project name="platform/external/selinux" />
 
 <!-- Build first -->
@@ -90,6 +91,7 @@
 <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="stag" />
 <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="stag" />
 <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="stag" revision="p9-caf" />
+<project path="hardware/stag/telephony" name="android_hardware_stag_telephony" remote="stag" />
 <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="stag" />
 <project path="hardware/libhardware" name="android_hardware_libhardware" remote="stag" />
 <project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" />
@@ -116,6 +118,7 @@
 <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="stag" />
 <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="stag" />
 <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
+<project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="stag" />
 <project path="system/vold" name="android_system_vold" remote="stag" />
  
 </manifest>
